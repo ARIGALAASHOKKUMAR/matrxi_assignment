@@ -1,0 +1,79 @@
+.card_container{
+    width:100%;
+    display: flex;
+    background-color: aqua;
+}
+.card{
+    height: 50vh;
+    margin: 10px;
+    background-color:  #390554;
+    overflow-wrap: break-word;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: bold;
+    color: white;
+    font-size: 10px;
+}
+input{
+    width: 435px;
+    height: 50px;
+    top:27px;
+    left: 353px;
+    border-radius: 20px;
+    border-width: 1px;
+}
+.inputt{
+    margin: 20px;
+}
+.main{
+    display: flex;
+    width: 1512px;
+    height: 1003px;
+    background-color: aqua;
+
+}
+a{
+    text-align: end;
+}
+.dollar{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #390554;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 230px;
+    padding-top: 120px;
+}
+.search-container {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  .search-input {
+    flex: 1;
+    border: none;
+    padding: 5px;
+    outline: none;
+  }
+  
+  .search-icon {
+    color: #aaa;
+    margin-left: 5px;
+  }
+  button{
+    padding:10px;
+    width:70px;
+    border-radius: 10px
+  }
+  

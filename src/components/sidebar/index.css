@@ -1,0 +1,47 @@
+.result{
+    background-color: palevioletred;
+    
+}
+
+Link,p,h1{
+    width: 20vw;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+
+}
+p{
+    text-decoration: none;
+}
+.side{
+    width: 20vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.linkk{
+    text-decoration: none;
+    width: 100%;
+    overflow: hidden;
+    color: white;
+    font-weight: bold;
+}
+.icons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+.sidetotal{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #292929;
+    width:288px;
+    height: 982px;
+    top: 1px;
+    border-radius:0 32 32 0;
+
+}

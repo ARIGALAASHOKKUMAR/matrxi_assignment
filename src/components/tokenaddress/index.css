@@ -1,0 +1,61 @@
+.token{
+    display: flex;
+    flex-direction: row;
+    width: 1512px;
+    height: 1003px;
+    background-color: aqua;
+}
+p{
+    display: flex;
+    justify-content: space-between;
+    padding: 2px;
+    padding-right: 4px;
+    overflow-wrap: break-word;
+}
+span{
+    width: 30%;
+    overflow: hidden;
+}
+.dollar{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: palevioletred;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 230px;
+    padding-top: 120px;
+}
+img{
+    width:10%;
+    width: 30px;
+    background-color: pink;
+    justify-self: flex-end;
+}
+.search-container {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  .search-input {
+    flex: 1;
+    border: none;
+    padding: 5px;
+    outline: none;
+  }
+  
+  .search-icon {
+    color: #aaa;
+    margin-left: 5px;
+  }
+  .pp{
+    color: black;
+  }
+  
